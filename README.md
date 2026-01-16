@@ -56,7 +56,6 @@ TCGPLAYER_USPS_CONVERTER/
 ├── Setup.bat                  # Setup wizard
 ├── ConvertToUSPS.bat          # Click-to-run converter
 ├── UpdateSettings.bat         # Update your config
-├── BuildDistribution.bat      # Package for distribution
 ├── scripts/
 │   ├── Setup.ps1
 │   ├── ConvertToUSPS.ps1
