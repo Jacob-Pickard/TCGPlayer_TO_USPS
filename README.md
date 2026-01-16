@@ -5,12 +5,7 @@ Automatically converts TCGplayer shipping exports to USPS-compatible label forma
 
 ## Security Note
 
-**IMPORTANT:** `config.json` contains your personal information and is:
-- ✅ Already in `.gitignore` (won't be committed to GitHub)
-- ✅ Hidden on Windows (won't show in normal folder view)
-- ✅ Protected from being uploaded to your repository
-
-When sharing this project on GitHub, only `config.example.json` will be visible to others.
+**IMPORTANT:** If you share your program files with others, be aware that `config.json` contains your personal information (name, address, etc.). The file is already in `.gitignore` to protect against accidental GitHub commits, but always verify you're not including it when sharing files directly.
 
 ## Setup
 
