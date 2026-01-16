@@ -49,14 +49,21 @@ Simply double-click **Convert TCGplayer to USPS.bat**
 ## Folder Structure
 
 ```
-USPS_Label_Converter/
-â”œâ”€â”€ ConvertToUSPS.ps1          # Main conversion script
-â”œâ”€â”€ Convert TCGplayer to USPS.bat  # Click-to-run
-â”œâ”€â”€ config.json                # Your secrets (DO NOT commit!)
-â”œâ”€â”€ config.example.json        # Template for GitHub
-â”œâ”€â”€ .gitignore                 # Protects your secrets
-â”œâ”€â”€ Output/                    # Converted USPS labels
-â””â”€â”€ TCGplayer_Archive/         # Archived TCGplayer exports
+TCGPLAYER_USPS_CONVERTER/
+├── README.md
+├── config.json                # Your personal info (DO NOT commit!)
+├── config.example.json        # Template for GitHub
+├── Setup.bat                  # Setup wizard
+├── ConvertToUSPS.bat          # Click-to-run converter
+├── UpdateSettings.bat         # Update your config
+├── BuildDistribution.bat      # Package for distribution
+├── scripts/
+│   ├── Setup.ps1
+│   ├── ConvertToUSPS.ps1
+│   ├── UpdateSettings.ps1
+│   └── BuildDistribution.ps1
+├── Output/                    # Converted USPS labels
+└── TCGplayer_Archive/         # Archived TCGplayer exports
 ```
 
 ## Future Features
