@@ -1,0 +1,21 @@
+﻿{
+    "Sender":  {
+                   "firstName":  "Your_First_Name",
+                   "lastName":  "Your_Last_Name",
+                   "address":  "Your Street Address",
+                   "city":  "Your City",
+                   "state":  "XX",
+                   "zip":  "12345",
+                   "country":  "US",
+                   "email":  "your.email@example.com"
+               },
+    "Package":  {
+                    "serviceType":  "First-Class Mail",
+                    "packageType":  "Letter",
+                    "itemDescription":  "Trading cards",
+                    "weight":  "1",
+                    "length":  "9.5",
+                    "width":  "4.125",
+                    "height":  "0.25"
+                }
+}
